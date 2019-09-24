@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using instinctai.usr.behaviours;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -32,10 +34,13 @@ public class PlayerController : MonoBehaviour
 
     public bool gameOver = false;
 
+    public Text endGameText;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        endGameText.text = "";
 
     }
 
@@ -109,11 +114,21 @@ public class PlayerController : MonoBehaviour
         if (followerCount > enemyFollowers)
         {
             DestroyFollowers(enemyFollowers / 2);
+            
+            for (int i = 0; i < gangLeader.GetComponent<GangLeaderBehavior>().followers.Length; i++)
+            {
+                Destroy(gangLeader.GetComponent<GangLeaderBehavior>().followers[i]);
+                gangLeader.GetComponent<GangLeaderBehavior>().followers[i] = null;
+
+            }
+            
             Destroy(gangLeader);
+            endGameText.text = " You Win";
         }
         else
         {
             gameOver = true;
+            endGameText.text = "You Lose";
         }
 
     }
