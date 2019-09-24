@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
 
+    public float rotateSpeed;
+
     public float influence;
 
     public Material gangColor;
@@ -16,36 +18,60 @@ public class PlayerController : MonoBehaviour
 
     public GameObject[] positions = new GameObject[100];
 
+    public Camera mainCamera;
+    public float cameraIncrease;
+
+    public float minX = -75;
+    public float maxX = 0;
+    public float minZ = -35;
+    public float maxZ = 35;
+
+    public GameObject EnemyPos;
+
+    public bool inFight = false;
+
+    public bool gameOver = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (gameOver)
         {
-            transform.Translate(speed * Time.deltaTime,0,0);
+            Time.timeScale = 0;
+            print("Game Over");
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.W) && !inFight)
         {
-            transform.Translate(-speed * Time.deltaTime,0,0);
+            transform.Translate(speed * Time.deltaTime, 0, 0);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.S) && !inFight)
         {
-            transform.Translate(0,0,-speed * Time.deltaTime);
+            transform.Translate(-speed * Time.deltaTime, 0, 0);
         }
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.D) && !inFight)
         {
-            transform.Translate(0,0,speed * Time.deltaTime);
+            transform.Rotate(Vector3.up, rotateSpeed * Time.deltaTime);
+            //transform.Translate(0,0,-speed * Time.deltaTime);
         }
-        
-        if ( Input.GetMouseButtonDown (0)){ 
-            RaycastHit hit; 
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); 
-            if ( Physics.Raycast (ray,out hit,100.0f)) {
+        if (Input.GetKey(KeyCode.A) && !inFight)
+        {
+            transform.Rotate(Vector3.down, rotateSpeed * Time.deltaTime);
+            //transform.Translate(0,0,speed * Time.deltaTime);
+        }
+
+        if (Input.GetMouseButtonDown(0) && !inFight)
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, 100.0f, 1 << 8))
+            {
                 Debug.Log("You selected the " + hit.transform.name); // ensure you picked right object
                 if (hit.transform.tag == "GangMember")
                 {
@@ -61,11 +87,14 @@ public class PlayerController : MonoBehaviour
         for (int i = 0; i < followerCount; i++)
         {
             followers[i].transform.position = positions[i].transform.position;
+            followers[i].transform.rotation = gameObject.transform.rotation;
         }
-        
-        
+
+
+
+
     }
-    
+
 
     public void InfluenceSubject(GameObject subject) //increases influenced amount of a gang member, so he will be willing to join
     {
@@ -74,17 +103,49 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void Fight(GameObject gangLeader)
+    public void Fight(GameObject gangLeader, int enemyFollowers)
     {
-        
+        gangLeader.transform.position = EnemyPos.transform.position;
+        if (followerCount > enemyFollowers)
+        {
+            DestroyFollowers(enemyFollowers / 2);
+            Destroy(gangLeader);
+        }
+        else
+        {
+            gameOver = true;
+        }
+
     }
 
     public void addFollower(GameObject gangMember) //adds followers to players list, cant have more than 100
     {
-        if(followerCount < 100)
+        if (followerCount < 100)
         {
             followers[followerCount] = gangMember;
             followerCount++;
+            //camera increase amounts 
+            //7
+            //16
+            if (followerCount == 7)
+            {
+                mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, cameraIncrease, mainCamera.transform.position.z);
+            }
+            else if (followerCount == 16)
+            {
+                mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, cameraIncrease + 5, mainCamera.transform.position.z);
+            }
         }
+    }
+
+    public void DestroyFollowers(int amount)
+    {
+        for (int i = followerCount; i > followerCount - amount; i--)
+        {
+            Destroy(followers[i].gameObject);
+
+        }
+        followerCount = followerCount - amount;
+
     }
 }

@@ -1,0 +1,2273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9088609479247261342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499164
+    y: 500844
+    width: 180
+    height: 72
+  GUID: RrQjJ0dcn0Ksq0nHatpayA
+  Type: 200
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 15
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.FindMember
+    ShortName: FindMember
+    CallSpec: FindMember
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.FindMember
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-8998882179383501484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498792
+    y: 500472
+    width: 180
+    height: 72
+  GUID: XkRkXwt9WkWqu0uUJCiwmg
+  Type: 800
+  Parent: ty2tGZKD/0ukHNwQ7ndGAw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 4
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 0
+--- !u!114 &-8642122322511871887
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500472
+    y: 500736
+    width: 180
+    height: 72
+  GUID: vvNoA2XJq0uaviVvsTnyzg
+  Type: 600
+  Parent: olUK1F8CxEuSQKHqkoG4Wg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 12
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 5
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.GangLeaderBehavior.targetLocation
+      CallSpec: targetLocation
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: targetLocation
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-8613785908266202868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499128
+    y: 500460
+    width: 180
+    height: 72
+  GUID: aWuxEezIuke6wr1OyldQBg
+  Type: 1200
+  Parent: ty2tGZKD/0ukHNwQ7ndGAw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - ntEK8ha93EOAmBQJwxNWwQ
+  - gKV5kUoAl0CB56VPpDKqAQ
+  InternalIndex: 32
+--- !u!114 &-8316924044104616451
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499548
+    y: 500844
+    width: 180
+    height: 72
+  GUID: kcmhuMmv7E6l8VA0zOKreQ
+  Type: 200
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 16
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.Wander
+    ShortName: Wander
+    CallSpec: Wander
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.Wander
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-7451637325355856221
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1075116281, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Distance
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500232
+    y: 500736
+    width: 180
+    height: 72
+  GUID: 70x4CtScGUWBv6EKVYmHcA
+  Type: 1000
+  Parent: olUK1F8CxEuSQKHqkoG4Wg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 11
+  CheckType: 2
+  Distance:
+    floatSource: 0
+    constant: 0.5
+    min: 0
+    max: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.GangLeaderBehavior.minX
+      CallSpec: minX
+      ReturnValue: System.Single
+      CollectionType: 
+      ShortName: minX
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.GangLeaderBehavior.targetLocation
+      CallSpec: targetLocation
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: targetLocation
+--- !u!114 &-6440094430984665660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Basic Choice Maker
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499884
+    y: 500052
+    width: 180
+    height: 72
+  GUID: Gfnki71aeUyu1oYN41xcJQ
+  Type: 1200
+  Parent: NpqhmjE6HEuQrsBf5NjM6Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - ty2tGZKD/0ukHNwQ7ndGAw
+  - dynz3DFoeECROb4RImiGdg
+  InternalIndex: 0
+--- !u!114 &-4761872295012377553
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 5
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500760
+    y: 500916
+    width: 180
+    height: 72
+  GUID: dsh+/ulEDkyU/0XUMzYhog
+  Type: 200
+  Parent: BjlmjSDsUUaE0cD/z3Kieg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 22
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.FightPlayer
+    ShortName: FightPlayer
+    CallSpec: FightPlayer
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.FightPlayer
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-4670583617722149739
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498768
+    y: 501000
+    width: 180
+    height: 72
+  GUID: W9BRIiqa5EydycXoTMwDtg
+  Type: 200
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 37
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.Wander
+    ShortName: Wander
+    CallSpec: Wander
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.Wander
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-4504056333260349931
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 7
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500556
+    y: 500916
+    width: 180
+    height: 72
+  GUID: locTsuhIV0moKevllLu5aQ
+  Type: 800
+  Parent: BjlmjSDsUUaE0cD/z3Kieg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 21
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.foundPlayer
+    CallSpec: foundPlayer
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: foundPlayer
+  ConditionIfFalse: 0
+--- !u!114 &-3765144212675535631
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 6
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498180
+    y: 501000
+    width: 180
+    height: 72
+  GUID: UtOcSFSN/U+E3ExAYi6fug
+  Type: 800
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 36
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 0
+--- !u!114 &-3645361713677474999
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499152
+    y: 501000
+    width: 180
+    height: 72
+  GUID: XhNaUOlfZEqXsbWs3x5G5g
+  Type: 200
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 38
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.FindPlayer
+    ShortName: FindPlayer
+    CallSpec: FindPlayer
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.FindPlayer
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &-2684876875503096943
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499740
+    y: 500844
+    width: 180
+    height: 72
+  GUID: PrUjGTF5T02+pLmunbnJUg
+  Type: 600
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 17
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 5
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.GangLeaderBehavior.targetLocation
+      CallSpec: targetLocation
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: targetLocation
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &-1037535523631875701
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501312
+    y: 500916
+    width: 180
+    height: 72
+  GUID: CxlR5ee40UKriycexBiprA
+  Type: 800
+  Parent: H7TUAfbYRUG2fttYFa4yaQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 25
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.targetIsWilling
+    CallSpec: targetIsWilling
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: targetIsWilling
+  ConditionIfFalse: 0
+--- !u!114 &-995347025702029813
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Not In Fight
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499512
+    y: 499812
+    width: 180
+    height: 72
+  GUID: mxbV9JXCg06GMEPwH2OWpA
+  Type: 1600
+  Parent: NpqhmjE6HEuQrsBf5NjM6Q
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - Trtb7G3xPkynrg8FnbGd4w
+  InternalIndex: 29
+  IsDynamic: 0
+--- !u!114 &-717636122972168889
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move To Target
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500364
+    y: 500604
+    width: 180
+    height: 72
+  GUID: olUK1F8CxEuSQKHqkoG4Wg
+  Type: 1200
+  Parent: dynz3DFoeECROb4RImiGdg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - 70x4CtScGUWBv6EKVYmHcA
+  - vvNoA2XJq0uaviVvsTnyzg
+  InternalIndex: 10
+--- !u!114 &-300393464258073798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: has target, gang < min
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500496
+    y: 500316
+    width: 180
+    height: 72
+  GUID: dynz3DFoeECROb4RImiGdg
+  Type: 1600
+  Parent: Gfnki71aeUyu1oYN41xcJQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - 6BbAx3Nj/Ee6GSMu6YKqww
+  - mg3T+rqPgUaVCQda527Whg
+  - olUK1F8CxEuSQKHqkoG4Wg
+  - +Cbotfhg4k2JFKvnBGxGcA
+  InternalIndex: 2
+  IsDynamic: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 849302148, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: GangLeaderBehavior
+  m_EditorClassIdentifier: 
+  AllNodes:
+  - {fileID: -6440094430984665660}
+  - {fileID: 2604760358970279175}
+  - {fileID: -300393464258073798}
+  - {fileID: 7834867567470549024}
+  - {fileID: -8998882179383501484}
+  - {fileID: 5450111810638566193}
+  - {fileID: 6495972189931802430}
+  - {fileID: 8107834644873992745}
+  - {fileID: 7934172268669070110}
+  - {fileID: 2478152017464889204}
+  - {fileID: -717636122972168889}
+  - {fileID: -7451637325355856221}
+  - {fileID: -8642122322511871887}
+  - {fileID: 2251907194088429869}
+  - {fileID: 4659720423710022028}
+  - {fileID: -9088609479247261342}
+  - {fileID: -8316924044104616451}
+  - {fileID: -2684876875503096943}
+  - {fileID: 3250570575036183265}
+  - {fileID: 1571657052815758886}
+  - {fileID: 1853983533933218310}
+  - {fileID: -4504056333260349931}
+  - {fileID: -4761872295012377553}
+  - {fileID: 1967237989825838512}
+  - {fileID: 766473477948158105}
+  - {fileID: -1037535523631875701}
+  - {fileID: 6258857313619625083}
+  - {fileID: 9163418518716638314}
+  - {fileID: 1423760573345665575}
+  - {fileID: -995347025702029813}
+  - {fileID: 6098965091239810951}
+  - {fileID: 150805383736256362}
+  - {fileID: -8613785908266202868}
+  - {fileID: 4150802812266952241}
+  - {fileID: 7521086736132189183}
+  - {fileID: 7684060771520240810}
+  - {fileID: -3765144212675535631}
+  - {fileID: -4670583617722149739}
+  - {fileID: -3645361713677474999}
+  SeparatorPos:
+    serializedVersion: 2
+    x: 1
+    y: 0
+    width: 150
+    height: 100
+  PropsScrollPos: {x: 0, y: 0}
+  ZoomLevel: 1
+  ViewCenter: {x: 498495.22, y: 500047.75}
+  Namespace: 
+  ClassName: GangLeaderBehavior
+  AssetFolder: Scripts
+  BaseClass: 
+  TreeUpdateMode: 1
+  IsSubtreeOnly: 0
+  EnableDebugLogNodes: 1
+  EnableLiveUpdate: 1
+  AddClassNamePrefix: 1
+  RequiresInit: 0
+  GUID: uwiErlMF00601FVXlizvHw
+  RequiredComponents: []
+  CodeKey: vUH4Qa/ATUKWR07IUcAT2w
+  SchemaVersion: 1
+  ___GenerateNodeComments: 0
+  ___GenerateNodeTrace: 0
+--- !u!114 &150805383736256362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Find Player then Find Member
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499704
+    y: 500328
+    width: 180
+    height: 72
+  GUID: zsppXl9FakKDmstH+ycDBg
+  Type: 1600
+  Parent: ty2tGZKD/0ukHNwQ7ndGAw
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 31
+  IsDynamic: 0
+--- !u!114 &766473477948158105
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Influence
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501132
+    y: 500916
+    width: 180
+    height: 72
+  GUID: z6LrOGb0ZE+hHHD6uyBMng
+  Type: 200
+  Parent: H7TUAfbYRUG2fttYFa4yaQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 24
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.Infleunce
+    ShortName: Infleunce
+    CallSpec: Infleunce
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.Infleunce
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &1423760573345665575
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1444294134, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Interact
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500940
+    y: 500592
+    width: 180
+    height: 72
+  GUID: +Cbotfhg4k2JFKvnBGxGcA
+  Type: 1200
+  Parent: dynz3DFoeECROb4RImiGdg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - BjlmjSDsUUaE0cD/z3Kieg
+  - H7TUAfbYRUG2fttYFa4yaQ
+  InternalIndex: 28
+--- !u!114 &1571657052815758886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Cant Fight / Cant Find PLayer
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499440
+    y: 500628
+    width: 180
+    height: 72
+  GUID: gKV5kUoAl0CB56VPpDKqAQ
+  Type: 1600
+  Parent: aWuxEezIuke6wr1OyldQBg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - VoVjHwctskWqfukxacNK6w
+  - RrQjJ0dcn0Ksq0nHatpayA
+  - o1kniInrZkCKf/U4G2gADg
+  - kcmhuMmv7E6l8VA0zOKreQ
+  - PrUjGTF5T02+pLmunbnJUg
+  - 1KszRvUXj0CS8INZmM2w8A
+  InternalIndex: 19
+  IsDynamic: 0
+--- !u!114 &1853983533933218310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500700
+    y: 500736
+    width: 180
+    height: 72
+  GUID: BjlmjSDsUUaE0cD/z3Kieg
+  Type: 1600
+  Parent: +Cbotfhg4k2JFKvnBGxGcA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - locTsuhIV0moKevllLu5aQ
+  - dsh+/ulEDkyU/0XUMzYhog
+  InternalIndex: 20
+  IsDynamic: 0
+--- !u!114 &1967237989825838512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500952
+    y: 500916
+    width: 180
+    height: 72
+  GUID: cvBGno9l4k2z+u5Eux7bMQ
+  Type: 800
+  Parent: H7TUAfbYRUG2fttYFa4yaQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 23
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 1
+--- !u!114 &2251907194088429869
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 5
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499356
+    y: 500844
+    width: 180
+    height: 72
+  GUID: o1kniInrZkCKf/U4G2gADg
+  Type: 800
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 13
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 0
+--- !u!114 &2478152017464889204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 1
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 500160
+    y: 500604
+    width: 180
+    height: 72
+  GUID: mg3T+rqPgUaVCQda527Whg
+  Type: 800
+  Parent: dynz3DFoeECROb4RImiGdg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 9
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.hasMin
+    CallSpec: hasMin
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasMin
+  ConditionIfFalse: 1
+--- !u!114 &2604760358970279175
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499656
+    y: 500052
+    width: 180
+    height: 72
+  GUID: Trtb7G3xPkynrg8FnbGd4w
+  Type: 800
+  Parent: mxbV9JXCg06GMEPwH2OWpA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 1
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.inFight
+    CallSpec: inFight
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: inFight
+  ConditionIfFalse: 1
+--- !u!114 &3250570575036183265
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Find Member
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499932
+    y: 500844
+    width: 180
+    height: 72
+  GUID: 1KszRvUXj0CS8INZmM2w8A
+  Type: 200
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 18
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.FindMember
+    ShortName: FindMember
+    CallSpec: FindMember
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.FindMember
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &4150802812266952241
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Can Fight
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498936
+    y: 500628
+    width: 180
+    height: 72
+  GUID: ntEK8ha93EOAmBQJwxNWwQ
+  Type: 1600
+  Parent: aWuxEezIuke6wr1OyldQBg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - tdl/0ZNts0ej13hTs4dd9Q
+  - YPpb+eXel0uRAQopUAZczg
+  InternalIndex: 33
+  IsDynamic: 0
+--- !u!114 &4659720423710022028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 3
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498972
+    y: 500844
+    width: 180
+    height: 72
+  GUID: VoVjHwctskWqfukxacNK6w
+  Type: 800
+  Parent: gKV5kUoAl0CB56VPpDKqAQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 14
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 0
+--- !u!114 &5450111810638566193
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Wander
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498768
+    y: 500844
+    width: 180
+    height: 72
+  GUID: YPpb+eXel0uRAQopUAZczg
+  Type: 1600
+  Parent: ntEK8ha93EOAmBQJwxNWwQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - UtOcSFSN/U+E3ExAYi6fug
+  - 24NIpFrFhkW7NK1+aVgjOA
+  - 015jHvc/2Em08hRZvhZl5A
+  - W9BRIiqa5EydycXoTMwDtg
+  - c4MHyOALQ0GoYWzy7T4KIQ
+  - XhNaUOlfZEqXsbWs3x5G5g
+  InternalIndex: 5
+  IsDynamic: 0
+--- !u!114 &6098965091239810951
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217198319, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499968
+    y: 499932
+    width: 32
+    height: 32
+  GUID: NpqhmjE6HEuQrsBf5NjM6Q
+  Type: 0
+  Parent: 
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - Gfnki71aeUyu1oYN41xcJQ
+  InternalIndex: 30
+--- !u!114 &6258857313619625083
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501492
+    y: 500916
+    width: 180
+    height: 72
+  GUID: zgED5/dQO0WTnXjZojzFUA
+  Type: 200
+  Parent: H7TUAfbYRUG2fttYFa4yaQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 26
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.AddToGang
+    ShortName: AddToGang
+    CallSpec: AddToGang
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.AddToGang
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &6495972189931802430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 4
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498552
+    y: 500844
+    width: 180
+    height: 72
+  GUID: tdl/0ZNts0ej13hTs4dd9Q
+  Type: 800
+  Parent: ntEK8ha93EOAmBQJwxNWwQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 6
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.hasMin
+    CallSpec: hasMin
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: hasMin
+  ConditionIfFalse: 0
+--- !u!114 &7521086736132189183
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition 8
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498576
+    y: 501000
+    width: 180
+    height: 72
+  GUID: 015jHvc/2Em08hRZvhZl5A
+  Type: 800
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 34
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 0
+--- !u!114 &7684060771520240810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1858656779, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Action 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498384
+    y: 501000
+    width: 180
+    height: 72
+  GUID: 24NIpFrFhkW7NK1+aVgjOA
+  Type: 200
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 35
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  ActionType: 1
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.FindPlayer
+    ShortName: FindPlayer
+    CallSpec: FindPlayer
+    ReturnValue: com.kupio.instinctai.NodeVal
+    MenuDescription: (This) instinctai.usr.behaviours.GangLeaderBehavior.FindPlayer
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+--- !u!114 &7834867567470549024
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Need Gang Members
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498984
+    y: 500316
+    width: 180
+    height: 72
+  GUID: ty2tGZKD/0ukHNwQ7ndGAw
+  Type: 1600
+  Parent: Gfnki71aeUyu1oYN41xcJQ
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - XkRkXwt9WkWqu0uUJCiwmg
+  - aWuxEezIuke6wr1OyldQBg
+  InternalIndex: 3
+  IsDynamic: 0
+--- !u!114 &7934172268669070110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1860181651, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 499956
+    y: 500604
+    width: 180
+    height: 72
+  GUID: 6BbAx3Nj/Ee6GSMu6YKqww
+  Type: 800
+  Parent: dynz3DFoeECROb4RImiGdg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 8
+  ConditionType: 3
+  Call:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: 
+    FullName: 
+    ShortName: 
+    CallSpec: 
+    ReturnValue: 
+    MenuDescription: 
+    Parameters:
+      keys: []
+      values: []
+      ParameterOrder: []
+      ParameterTypes: []
+      ParameterNames: []
+  Field:
+    Declaration: 
+    ClassLevelDeclaration: 
+    TargetObject: this
+    FullName: instinctai.usr.behaviours.GangLeaderBehavior.memberHunting
+    CallSpec: memberHunting
+    ReturnValue: System.Boolean
+    CollectionType: 
+    ShortName: memberHunting
+  ConditionIfFalse: 1
+--- !u!114 &8107834644873992745
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2101153115, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Move 2
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 498960
+    y: 501000
+    width: 180
+    height: 72
+  GUID: c4MHyOALQ0GoYWzy7T4KIQ
+  Type: 600
+  Parent: YPpb+eXel0uRAQopUAZczg
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children: []
+  InternalIndex: 7
+  Latch: 0
+  LatchTimeout: 0.2
+  LatchJumpTarget: 
+  LatchCondition:
+    boolSource: 0
+    constant: 0
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      CallSpec: 
+      ReturnValue: 
+      CollectionType: 
+      ShortName: 
+  LatchConditionIfFalse: 0
+  LatchTimeMode: 0
+  entryLimitMode: 0
+  CountLimit: 1
+  RateLimitSeconds: 1
+  RateLimitTimeMode: 0
+  MoveType: 1
+  Speed: 1
+  timeMode: 0
+  Position:
+    IsWorld: 1
+    vector3Source: 1
+    vector: {x: 0, y: 0, z: 0}
+    Call:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: 
+      FullName: 
+      ShortName: 
+      CallSpec: 
+      ReturnValue: 
+      MenuDescription: 
+      Parameters:
+        keys: []
+        values: []
+        ParameterOrder: []
+        ParameterTypes: []
+        ParameterNames: []
+    Field:
+      Declaration: 
+      ClassLevelDeclaration: 
+      TargetObject: this
+      FullName: instinctai.usr.behaviours.GangLeaderBehavior.targetLocation
+      CallSpec: targetLocation
+      ReturnValue: UnityEngine.Transform
+      CollectionType: System.Object
+      ShortName: targetLocation
+  Tween:
+    easing: 0
+    Duration: 0
+    DurationTimeMode: 0
+    Delay: 0
+  Reverse: 0
+--- !u!114 &9163418518716638314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501586927, guid: b1299c68da958794bbdba203272d5fc4, type: 3}
+  m_Name: Member
+  m_EditorClassIdentifier: 
+  EditorRect:
+    serializedVersion: 2
+    x: 501204
+    y: 500748
+    width: 180
+    height: 72
+  GUID: H7TUAfbYRUG2fttYFa4yaQ
+  Type: 1600
+  Parent: +Cbotfhg4k2JFKvnBGxGcA
+  RandomWeight: 1
+  PublishedState: 
+  PublishState: 0
+  resultBehaviour: 0
+  Owner: {fileID: 11400000}
+  Children:
+  - cvBGno9l4k2z+u5Eux7bMQ
+  - z6LrOGb0ZE+hHHD6uyBMng
+  - CxlR5ee40UKriycexBiprA
+  - zgED5/dQO0WTnXjZojzFUA
+  InternalIndex: 27
+  IsDynamic: 0

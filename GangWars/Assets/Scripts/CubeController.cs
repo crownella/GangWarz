@@ -59,7 +59,7 @@ public class CubeController : MonoBehaviour
                     GetComponent<MeshRenderer>().material = gangLeader.GetComponent<PlayerController>().gangColor;
                 }else if (gangLeader.transform.tag == "GangLeader")
                 {
-                    GetComponent<MeshRenderer>().material = gangLeader.GetComponent<GangLeaderController>().gangColor;
+                    //GetComponent<MeshRenderer>().material = gangLeader.
                 }
             }
             else
@@ -79,6 +79,9 @@ public class CubeController : MonoBehaviour
             gangLeader.GetComponent<PlayerController>().addFollower(gameObject);
             inGang = true;
 
+        }else if(gangLeader.transform.tag == "GangLeader" && !inGang)
+        {
+            inGang = true;
         }
     }
 
