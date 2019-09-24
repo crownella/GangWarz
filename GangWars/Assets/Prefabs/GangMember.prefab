@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5333663609308068652}
   m_Layer: 0
   m_Name: GangMember
-  m_TagString: Untagged
+  m_TagString: GangMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,9 +113,30 @@ MonoBehaviour:
   influencedAmount: 0
   influenceThreshold: 1
   lastInfluenceLeader: {fileID: 0}
-  CubeLeader: {fileID: 0}
+  CubeLeader: {fileID: 4511025450355345879, guid: cc681569350751242839957198e2e066,
+    type: 3}
   black: {fileID: 2100000, guid: 8c0b8cfc890b44144b4ad7373b6a1b98, type: 2}
   red: {fileID: 2100000, guid: c3bedd9d086ee70408644de186ccf3a6, type: 2}
+  placements:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gangmembers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!54 &5333663609308068653
 Rigidbody:
   m_ObjectHideFlags: 0

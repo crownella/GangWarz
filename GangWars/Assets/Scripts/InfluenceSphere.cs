@@ -18,11 +18,15 @@ public class InfluenceSphere : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "GangMember" && !other.gameObject.GetComponent<CubeController>().lastInfluenceLeader == GetComponentInParent<Transform>().gameObject) //if you collide with a gang member and u werent the last leadre to influence them
+        
+        if (other.transform.tag == "GangMember" && other.gameObject.GetComponent<CubeController>().lastInfluenceLeader != GetComponentInParent<Transform>().gameObject) //if you collide with a gang member and u werent the last leadre to influence them && !other.gameObject.GetComponent<CubeController>().lastInfluenceLeader == GetComponentInParent<Transform>().gameObject
         {
-            GetComponentInParent<PlayerController>().InfluenceSubject(other.gameObject);
-            other.gameObject.GetComponent<CubeController>().lastInfluenceLeader = GetComponentInParent<Transform>().gameObject;
-        }else if (other.name == "GangLeader")
+            
+            GetComponentInParent<PlayerController>().InfluenceSubject(other.gameObject); //influence whoever you collide with
+            other.gameObject.GetComponent<CubeController>().lastInfluenceLeader = GetComponentInParent<Transform>().gameObject;  //set thier last influencer to be you
+
+            
+        }else if (other.transform.tag == "GangLeader")
         {
             GetComponentInParent<PlayerController>().Fight(other.gameObject);
         }

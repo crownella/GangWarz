@@ -9,6 +9,13 @@ public class PlayerController : MonoBehaviour
     public float influence;
 
     public Material gangColor;
+
+    public GameObject[] followers = new GameObject[100];
+
+    public int followerCount = 0;
+
+    public GameObject[] positions = new GameObject[100];
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,28 +47,44 @@ public class PlayerController : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); 
             if ( Physics.Raycast (ray,out hit,100.0f)) {
                 Debug.Log("You selected the " + hit.transform.name); // ensure you picked right object
-                if (hit.transform.name == "GangMember")
+                if (hit.transform.tag == "GangMember")
                 {
                     if (!hit.transform.gameObject.GetComponent<CubeController>().inGang && //not in gang
                         hit.transform.gameObject.GetComponent<CubeController>().willing) //is willing to join
                     {
-                        hit.transform.gameObject.GetComponent<CubeController>().JoinGang(this.gameObject);
+                        hit.transform.gameObject.GetComponent<CubeController>().JoinGang(gameObject);
                     }
                 }
             }
+        }
+
+        for (int i = 0; i < followerCount; i++)
+        {
+            followers[i].transform.position = positions[i].transform.position;
         }
         
         
     }
     
 
-    public void InfluenceSubject(GameObject subject)
+    public void InfluenceSubject(GameObject subject) //increases influenced amount of a gang member, so he will be willing to join
     {
         subject.GetComponent<CubeController>().influencedAmount += influence;
+
+
     }
 
     public void Fight(GameObject gangLeader)
     {
         
+    }
+
+    public void addFollower(GameObject gangMember) //adds followers to players list, cant have more than 100
+    {
+        if(followerCount < 100)
+        {
+            followers[followerCount] = gangMember;
+            followerCount++;
+        }
     }
 }

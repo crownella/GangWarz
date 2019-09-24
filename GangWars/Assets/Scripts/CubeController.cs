@@ -25,7 +25,7 @@ public class CubeController : MonoBehaviour
         if (rand > 100) //make this 75 later
         {
             Instantiate(CubeLeader, transform.position, transform.rotation);
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -38,25 +38,26 @@ public class CubeController : MonoBehaviour
         }
         if (gangLeader == null)
         {
-            inGang = false;
+            //inGang = false;
         }else if (inGang)
         {
-            
+            willing = false;
         }
 
 
         if (willing)
         {
             GetComponent<MeshRenderer>().material = red;
+            //JoinGang(lastInfluenceLeader);  //automatically join gang choice
         }
         else
         {
             if (inGang)
             {
-                if (gangLeader.transform.name == "Player")
+                if (gangLeader.transform.tag == "Player")
                 {
                     GetComponent<MeshRenderer>().material = gangLeader.GetComponent<PlayerController>().gangColor;
-                }else if (gangLeader.transform.name == "GangLeader")
+                }else if (gangLeader.transform.tag == "GangLeader")
                 {
                     GetComponent<MeshRenderer>().material = gangLeader.GetComponent<GangLeaderController>().gangColor;
                 }
@@ -72,13 +73,19 @@ public class CubeController : MonoBehaviour
     public void JoinGang(GameObject leader)
     {
         gangLeader = leader;
-        inGang = true;
-        this.gameObject.transform.SetParent(gangLeader.transform);
+        //gameObject.transform.SetParent(gangLeader.transform);
+        if (gangLeader.transform.tag == "Player" && !inGang)
+        {
+            gangLeader.GetComponent<PlayerController>().addFollower(gameObject);
+            inGang = true;
+
+        }
     }
 
     public void InfluenceOthers(GameObject other)
     {
-        other.GetComponent<CubeController>().influencedAmount += influence;
+        other.GetComponent<CubeController>().influencedAmount += influence; 
+
     }
 
     private void OnTriggerEnter(Collider other)
